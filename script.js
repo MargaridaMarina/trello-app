@@ -23,6 +23,7 @@ class todoList{
     this.h2.innerHTML=this.title
     this.input=document.createElement('button')
     this.input.classList.add("comment")
+    this.button = document.createElement('button');
     this.button.innerHTML='Adicionar'
     this.button.classList.add("btn-save")
     this.button.id="to-do-list-button"
