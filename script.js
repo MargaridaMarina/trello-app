@@ -42,3 +42,19 @@ class todoList{
   }
 }
 
+let addTodoListInput = document.getElementById("addTodoListInput")
+let addTodoListButton = document.getElementById("addTodoListButton")
+
+addTodoListButton.addEventListener('click', ()=>{
+  if(addTodoListInput.value.trim() != ""){
+    new todoList(root, addTodoListInput.value)
+    addTodoListInput.value = ""
+  }
+})
+
+let todoList1 = new todoList(root)
+let todoList2 = new todoList(root)
+let todoList3 = new todoList(root)
+
+todoList1.input.value = 'asasasas'
+todoList1.addToDo()
