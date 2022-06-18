@@ -27,6 +27,24 @@ button{
   min-width: 1200px;
 }
 
+.todoList{
+  border-radius: 4px;
+  min-height: 100px;
+  background: rgb(235,235,235);
+  padding: 0.7em;
+  margin: 1em 0 1em 1em;
+  float: left;
+}
+
+.todoList h2{
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+#to-do-list-button{
+  margin-left:0.5em;
+}
+
 .comment{
   background-color: white;
   border: 1px solid #ccc;
